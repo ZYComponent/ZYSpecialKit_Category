@@ -18,6 +18,15 @@ profile
 DerivedData
 *.hmap
 *.ipa
+.idea/
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+
+#CocoaPods
+Pods
+!Podfile
+!Podfile.lock
 
 # Bundler
 .bundle
