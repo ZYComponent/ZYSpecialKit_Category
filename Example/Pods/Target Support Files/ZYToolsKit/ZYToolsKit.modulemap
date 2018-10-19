@@ -1,0 +1,6 @@
+framework module ZYToolsKit {
+  umbrella header "ZYToolsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

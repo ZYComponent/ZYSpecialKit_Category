@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/ZYAPIsKit" "${PODS_CONFIGURATION_BUILD_DIR}/ZYSpecialKit_Category" "${PODS_CONFIGURATION_BUILD_DIR}/ZYToolsKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/FMDB/FMDB.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ZYAPIsKit/ZYAPIsKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ZYSpecialKit_Category/ZYSpecialKit_Category.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ZYToolsKit/ZYToolsKit.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "AFNetworking" -framework "CTMediator" -framework "CoreGraphics" -framework "FMDB" -framework "MBProgressHUD" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "ZYAPIsKit" -framework "ZYSpecialKit_Category" -framework "ZYToolsKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
